@@ -1,14 +1,59 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+
+    "principals": {"principal": [
+
+        {
+
+            "name": "DN",
+
+            "value": "cn=gxissvc.gxis.nga.mil,ou=Component,ou=NGA,ou=DoD,o=u.s. government,c=us"
+
+        },
+
+        {
+
+            "name": "UID",
+
+            "value": "gxissvc.gxis.nga.mil"
+
+        }
+
+    ]},
+
+    "cookies": [
+
+        {
+
+            "path": "/",
+
+            "maxAge": "-1",
+
+            "name": "OAM_ID",
+
+            "secure": true,
+
+            "value": "VERSION_5~fGUvEwu3ElqFw9H7o+I3mQ==~SyVSuxlNjZ+iNs5OYsRPgxH0IvFoUm4PYMp9nygx/ZHdOujkJ2iz52QRsebTJSEOnzmRJAI6Zktf3NJmNPR6PitC9RM8eEgjX55fljAy2QMZKSzGF3Tg4F+wi87d9okYU0U47vmxbsoEodJ2tdi/TXO3yWIaTEAcDYxPvg+urmexewq3sQqnHVGHGFJc8V7Um2bo+487mlaR/+rQpH1Djmy6pa/ueiO+EFw+uWkZ5qZ4C1ZbaW9qQM48RzGGZjXtJBsbOQlYD7KoHxqtzivt3E23pu7c4JdzDZkJLs0hfNeIg4NVTb1WZg0RcXuvzCqbFAxX9z+TdXAbJYVomKMOvuMIy6JDspojCnOaaJLA4I3924Bx+jYmD4JMIO/RpqiqyA7E0J+Vj93S1NiF8qYEcXXDeNClxyUKMWbTALwHfZad5GvsbnbjIdK/R22YN8Hvjan4dfdgp+ZGoQF4WGdZM6/xye8tIERlj8G9J3m4NMU0bKnYHEJEbUpkLKvcU1pz",
+
+            "version": "0"
+
+        },
+
+        {
+
+            "maxAge": "-1",
+
+            "name": "ObSSOCookie",
+
+            "secure": false,
+
+            "value": "KyIOE%2BNtUNwYZGvRQz%2BXcPkqLlr9A3aaWpTEVucli85EurfpJ%2BYui7tBG2nDHVvuG3mh0jotIS6lXF%2F8RsEHAd%2FBzfGakZnDzHcd3hBn9wdxJR9aKdmZ44GnT%2FhKZzx3%2BJAhpW8uSv0vFq%2FAY9b22qqsfQVwsey%2Berm%2B0fQuXkv1AtrPQVylq55fV0szuyXH4gk5df%2Bsf2QdG9N6mAbrskqiW3uSdX2Qj3cwDjkgabgt%2BtEvhdDreLbGF87D1%2F80Xjw0lxPvchlAxYHrjxEPiBV0LwodjRrlBS79ClSdUSu3L6oD%2FtJu9rUcg2D1ZRDYU4XsdtM7Sfsov21YMGsKqdeCnNwYP2M0%2BLF04fnKCUKi7wDApcYtr93c7z9Vsa8fW%2B3qXQl9DkpIAamdUUjxsie8g8%2Bm%2F8g8eJ%2BvpSDiwErpINg1bm%2BIYeBmIwGpdewuhOlsokY0mB7pTrE3KObbdv8pOUYACAeAcJy9nLw3%2BwiDQ9%2Fq4LCMW04hBtZfNvlJ4zMoXutnnpVG4cLwQYCdNhhFPluATcbr%2Bi0ULPX16Vtfku8KsCy6B6uC7Y0RMtCTb9Om2mn14bGP7B156IbIvMQfashhUCNpboZz9Nf7byw%3D",
+
+            "version": "0"
+
+        }
+
+    ],
+
+    "successful": true
+
 }
